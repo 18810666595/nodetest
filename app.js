@@ -24,7 +24,6 @@ const html = `
     }
 
     .msg {
-      display: inline-block;
       text-align: center;
       font-size: 1rem;
       color: #31f6f1;
