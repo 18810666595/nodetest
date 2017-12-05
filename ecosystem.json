@@ -1,0 +1,28 @@
+{
+  "app": [
+    {
+      "name": "nodetest",
+      "script": "app.js",
+      "env": {
+        "COMMON_VARIABLE": "true"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "cg",
+      "host": ["47.94.198.140"],
+      "port": "22",
+      "ref": "origin/master",
+      "repo": "git@github.com:18810666595/nodetest.git",
+      "path": "/www/nodetest/production",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
