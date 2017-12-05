@@ -35,6 +35,7 @@ const html = `
 <body>
 <h1 class="title">这是一个测试的网页</h1>
 <p class="msg">这是一个用 nodejs 起的静态页面</p>
+<p class="msg">让我们来玩 nodejs 吧</p>
 </body>
 </html>
 `;
